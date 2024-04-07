@@ -1,0 +1,27 @@
+{
+    "short_name": "React App",                   // 1. 应用程序的简称。
+    "name": "Create React App Sample",          // 2. 应用程序的全称。
+    "icons": [                                 // 3. "icons": [...]，表示应用程序的图标。这里定义了三个图标，分别用于不同大小的设备。
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": ".",                       // 4. 应用程序的起始URL。
+    "display": "standalone",                // 5. 应用程序应该以独立窗口显示。  
+    "theme_color": "#000000",              // 6. 应用程序的主题颜色。 
+    "background_color": "#ffffff"
+  }
+// 这段代码是一个React应用程序的manifest.json文件，用于定义应用程序的元数据。manifest.json文件通常位于项目的public文件夹中。
+
